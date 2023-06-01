@@ -1,6 +1,6 @@
-import "./styles.css";
-import IMAGE from "./react.png";
-import logo from "./logo.svg";
+import './styles.css'
+import IMAGE from './react.png'
+import logo from './logo.svg'
 // To run the build, goto build folder and run npx serve
 export default function App() {
   return (
@@ -9,5 +9,5 @@ export default function App() {
       <img src={IMAGE} alt="React Logo" width="300" height="200" />
       <img src={logo} alt="React Logo" width="300" height="200" />
     </>
-  );
+  )
 }
